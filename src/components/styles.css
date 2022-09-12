@@ -1,0 +1,50 @@
+.headings {
+  margin: 30px 30px;
+  display: "flex";
+}
+.cards {
+  margin: 0px 0px 0px 60px;
+}
+.cardlists {
+  float: left;
+  width: 300px;
+  height: auto;
+  margin: 20px 20px;
+}
+.cardtitle {
+  color: rgb(80, 79, 79);
+}
+
+.searchicon {
+  align-items: center;
+  margin: 0 0 0px 10px;
+  /* color: #dadada; */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.searchicon:hover {
+  transform: scale(1.2);
+}
+.recepieimage {
+  object-fit: cover;
+  width: 280px;
+  height: 130px;
+  border-radius: 10px 10px 0px 0px;
+}
+.recepielabel {
+  text-shadow: 1px 1px 10px rgb(0, 0, 0), 1px 1px 10px rgb(0, 0, 0);
+}
+.modalimage {
+  object-fit: cover;
+  height: 300px;
+}
+.searchbutton {
+  border: none;
+}
+.name {
+  width: 100%;
+  justify-content: space-between;
+}
+span {
+  font-weight: bold;
+}
